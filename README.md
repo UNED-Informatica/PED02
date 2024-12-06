@@ -1,97 +1,69 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea de Programación: Mi Primer Programa</title>
-</head>
-<body>
-    <h1><strong>Tarea de Programación: Mi Primer Programa</strong></h1>
 
-    <p>Este documento describe la solución a la tarea de programación presentada, los pasos realizados y las decisiones tomadas para cumplir con los criterios establecidos.</p>
+### Opción 2: Clic Directo
+Haga clic en los archivos proporcionados en las carpetas respectivas de su sistema operativo:
 
-    <h2>Quick Access</h2>
-    <p>Para ejecutar los programas, puede hacerlo de dos maneras:</p>
-    <ul>
-        <li><strong>Opción 1:</strong> Abrir una terminal y ejecutar el script correspondiente a su sistema operativo:
-            <ul>
-                <li><strong>Windows:</strong> Ejecute <code>Programa1.bat</code> o <code>Programa2.bat</code> desde la terminal de comandos.</li>
-                <li><strong>Linux:</strong> Ejecute <code>./Programa1.sh</code> o <code>./Programa2.sh</code> desde una terminal.</li>
-                <li><strong>macOS:</strong> Ejecute <code>./Programa1.sh</code> o <code>./Programa2.sh</code> desde una terminal.</li>
-            </ul>
-        </li>
-        <li><strong>Opción 2:</strong> Haga clic en los archivos proporcionados en las carpetas respectivas de su sistema operativo:
-            <ul>
-                <li><a href="windows/Programa1.bat">Programa1.bat</a> (Windows)</li>
-                <li><a href="windows/Programa2.bat">Programa2.bat</a> (Windows)</li>
-                <li><a href="linux/Programa1.sh">Programa1.sh</a> (Linux)</li>
-                <li><a href="linux/Programa2.sh">Programa2.sh</a> (Linux)</li>
-                <li><a href="macos/Programa1.sh">Programa1.sh</a> (macOS)</li>
-                <li><a href="macos/Programa2.sh">Programa2.sh</a> (macOS)</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
+- **Windows**:
+- [windows/Programa1.bat](windows/Programa1.bat)
+- [windows/Programa2.bat](windows/Programa2.bat)
+- **Linux**:
+- [linux/Programa1.sh](linux/Programa1.sh)
+- [linux/Programa2.sh](linux/Programa2.sh)
+- **macOS**:
+- [macos/Programa1.sh](macos/Programa1.sh)
+- [macos/Programa2.sh](macos/Programa2.sh)
 
-    <h2>A. Tarea</h2>
-    <h3>Descripción</h3>
-    <p>El objetivo de la tarea es que el alumno cree dos programas básicos en un lenguaje de programación permitido (C, Java, Modula, Pascal). Los programas deben ser ejecutables en una ventana de <strong>Windows</strong>, <strong>MS-DOS</strong>, o <strong>navegador web</strong>.</p>
+### Descargar los Archivos
+Puede descargar los archivos completos del proyecto desde el repositorio oficial de GitHub:
+[Repositorio GitHub](https://github.com/UNED-Informatica/PED02)
 
-    <ol>
-        <li><strong>Programa 1:</strong> Mostrar datos personales del alumno y un saludo.</li>
-        <li><strong>Programa 2:</strong> Pedir dos números al usuario, calcular el máximo y mostrar el resultado.</li>
-    </ol>
+---
 
-    <h3>Pasos Específicos del Programa 2</h3>
-    <ol>
-        <li>Dar la bienvenida al programa.</li>
-        <li>Pedir al usuario dos números.</li>
-        <li>Calcular el número mayor.</li>
-        <li>Mostrar el número mayor.</li>
-        <li>Imprimir un mensaje de despedida.</li>
-    </ol>
-    <hr>
+## A. Tarea
 
-    <h2>B. Reflexiones Preliminares</h2>
+### Descripción
+El objetivo de la tarea es que el alumno cree dos programas básicos en un lenguaje de programación permitido (**C, Java, Modula, Pascal**). Los programas deben ser ejecutables en una ventana de **Windows**, **MS-DOS**, o **navegador web**.
 
-    <h3>B.1. Criterios</h3>
-    <p>Se establecieron los siguientes criterios para la solución:</p>
-    <ul>
-        <li><strong>Simple:</strong> Fácil de ejecutar sin requerir configuraciones o abrir terminales.</li>
-        <li><strong>Portable:</strong> Todo contenido debe estar en un solo archivo o carpeta sin necesidad de instalación adicional.</li>
-        <li><strong>Cross-Platform:</strong> La solución debe funcionar en diferentes sistemas operativos.</li>
-        <li><strong>Acceso con Doble Click:</strong> Los programas deben abrirse fácilmente.</li>
-    </ul>
+1. **Programa 1**: Mostrar datos personales del alumno y un saludo.
+2. **Programa 2**: Pedir dos números al usuario, calcular el máximo y mostrar el resultado.
 
-    <h3>B.2. Lenguaje</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Lenguaje</th>
-                <th>Pros</th>
-                <th>Contras</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>C</strong></td>
-                <td>Alta eficiencia, compilación directa a binarios ('.exe').</td>
-                <td>No es multiplataforma nativa; requiere recompilación para cada sistema operativo.</td>
-            </tr>
-            <tr>
-                <td><strong>Java</strong></td>
-                <td>Multiplataforma, facilidad para empaquetar en '.jar'.</td>
-                <td>Requiere <strong>JRE</strong> para ejecutar, el empaquetado con JRE aumenta el tamaño del archivo.</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
+### Pasos Específicos del Programa 2
+1. Dar la bienvenida al programa.
+2. Pedir al usuario dos números.
+3. Calcular el número mayor.
+4. Mostrar el número mayor.
+5. Imprimir un mensaje de despedida.
 
-    <h2>C. Solución</h2>
+---
 
-    <h3>C.1. Organización de la Carpeta Solución</h3>
-    <p>La carpeta de entrega contiene lo siguiente:</p>
-    <pre>
+## B. Reflexiones Preliminares
+
+### B.1. Criterios
+Se establecieron los siguientes criterios para la solución:
+- **Simple**: Fácil de ejecutar sin requerir configuraciones o abrir terminales.
+- **Portable**: Todo contenido debe estar en un solo archivo o carpeta sin necesidad de instalación adicional.
+- **Cross-Platform**: La solución debe funcionar en diferentes sistemas operativos.
+- **Acceso con Doble Click**: Los programas deben abrirse fácilmente.
+
+### B.2. Lenguaje
+Se compararon las siguientes opciones:
+
+| **Lenguaje** | **Pros**                                                                                  | **Contras**                                                                                      |
+|--------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **C**        | Alta eficiencia, compilación directa a binarios (`.exe`).                                | No es multiplataforma nativa; requiere recompilación para cada sistema operativo.              |
+| **Java**     | Multiplataforma, facilidad para empaquetar en `.jar`.                                     | Requiere **JRE** para ejecutar, el empaquetado con JRE aumenta el tamaño del archivo.          |
+| **Modula**   | Diseñado para programas educativos y simples.                                             | Poco soporte actual; compiladores y entornos limitados.                                        |
+| **Pascal**   | Fácil de leer y usar, especialmente con herramientas como Free Pascal Compiler (FPC).     | Menos flexible para integrar en proyectos modernos, no multiplataforma nativo.                |
+
+Se eligió **Java** debido a su capacidad multiplataforma y facilidad para empaquetar como un único archivo ejecutable.
+
+**Nota**: Una solución en Python habría sido mucho más sencilla, ya que es más fácil de leer, escribir y ejecutar. Sin embargo, Python no está entre los lenguajes permitidos para esta tarea.
+
+---
+
+## C. Solución
+
+### C.1. Organización de la Carpeta Solución
+La carpeta de entrega contiene lo siguiente:
 Carpeta Principal/
 ├── java/
 │   ├── PED02_01.jar       # Programa 1 empaquetado en formato JAR
@@ -117,14 +89,10 @@ Carpeta Principal/
 │   │   ├── PED02_02.java
 │   │   ├── PED02_02.class
 │   │   ├── MANIFEST.MF
-    </pre>
 
-    <h3>C.2. Explicación de las Carpetas JRE</h3>
-    <p>Las carpetas <code>jre-windows</code>, <code>jre-linux</code>, y <code>jre-macos</code> contienen un entorno de ejecución de Java (JRE) preconfigurado para cada sistema operativo. Esto asegura que los programas puedan ejecutarse incluso si el sistema del usuario no tiene Java instalado.</p>
-    <hr>
+### C.2. Explicación de las Carpetas JRE
+Las carpetas `jre-windows`, `jre-linux`, y `jre-macos` contienen un entorno de ejecución de Java (JRE) preconfigurado para cada sistema operativo. Esto asegura que los programas puedan ejecutarse incluso si el sistema del usuario no tiene Java instalado.
+Los archivos del código fuente para el Java (JRE) se descargaron de [adoptium.net](https//:adoptium.net).
+---
 
-    <footer>
-        <p>Este archivo es el punto de inicio de la documentación del proyecto.</p>
-    </footer>
-</body>
-</html>
+Este archivo sirve como punto de partida para entender y ejecutar la solución de la tarea.

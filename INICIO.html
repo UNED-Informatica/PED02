@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,16 +12,33 @@
     <p>Este documento describe la solución a la tarea de programación presentada, los pasos realizados y las decisiones tomadas para cumplir con los criterios establecidos.</p>
 
     <h2>Quick Access</h2>
-    <p>Para ejecutar los programas, puede hacerlo de dos maneras:</p>
+    <p>Para ejecutar los programas, puede hacerlo de tres maneras:</p>
     <ul>
         <li><strong>Opción 1:</strong> Abrir una terminal y ejecutar el script correspondiente a su sistema operativo:
             <ul>
-                <li><strong>Windows:</strong> Ejecute <code>Programa1.bat</code> o <code>Programa2.bat</code> desde la terminal de comandos.</li>
-                <li><strong>Linux:</strong> Ejecute <code>./Programa1.sh</code> o <code>./Programa2.sh</code> desde una terminal.</li>
-                <li><strong>macOS:</strong> Ejecute <code>./Programa1.sh</code> o <code>./Programa2.sh</code> desde una terminal.</li>
+                <li><strong>Windows:</strong> Ejecute:
+                    <pre>Programa1.bat</pre>
+                    <pre>Programa2.bat</pre>
+                </li>
+                <li><strong>Linux:</strong> Ejecute:
+                    <pre>./Programa1.sh</pre>
+                    <pre>./Programa2.sh</pre>
+                </li>
+                <li><strong>macOS:</strong> Ejecute:
+                    <pre>./Programa1.sh</pre>
+                    <pre>./Programa2.sh</pre>
+                </li>
             </ul>
         </li>
-        <li><strong>Opción 2:</strong> Haga clic en los archivos proporcionados en las carpetas respectivas de su sistema operativo:
+		
+		<li><strong>Opción 2:</strong> Usar un recompiladore online como:
+		<ul>
+                <li> <a href="https://www.jdoodle.com/online-java-compiler">JDoodle</a></li>
+				 </ul>
+		</li>
+		
+		
+        <li><strong>Opción 3:</strong> Haga clic en los archivos proporcionados en las carpetas respectivas de su sistema operativo:
             <ul>
                 <li><a href="windows/Programa1.bat">windows/Programa1.bat</a> (Windows)</li>
                 <li><a href="windows/Programa2.bat">windows/Programa2.bat</a> (Windows)</li>
@@ -31,6 +49,19 @@
             </ul>
         </li>
     </ul>
+
+    <h3>Descargar los Archivos</h3>
+    <p>Puede descargar los archivos completos del proyecto desde el repositorio oficial de GitHub:</p>
+    <p><a href="https://github.com/UNED-Informatica/PED02" target="_blank">https://github.com/UNED-Informatica/PED02</a></p>
+
+    <h3>Archivos Java</h3>
+    <p>Los dos archivos Java que constituyen la solución principal a la tarea son:</p>
+    <ul>
+        <li><code>PED02_01.java</code>: Programa 1 que imprime datos personales y un saludo.</li>
+        <li><code>PED02_02.java</code>: Programa 2 que calcula el número máximo entre dos números.</li>
+    </ul>
+    <p>El resto de los archivos (scripts, empaquetados en JAR, carpetas de JRE) forman parte de una solución más completa para facilitar la ejecución multiplataforma.</p>
+
     <hr>
 
     <h2>A. Tarea</h2>
@@ -64,6 +95,7 @@
     </ul>
 
     <h3>B.2. Lenguaje</h3>
+    <p>Se compararon las siguientes opciones:</p>
     <table border="1">
         <thead>
             <tr>
@@ -83,9 +115,20 @@
                 <td>Multiplataforma, facilidad para empaquetar en '.jar'.</td>
                 <td>Requiere <strong>JRE</strong> para ejecutar, el empaquetado con JRE aumenta el tamaño del archivo.</td>
             </tr>
+            <tr>
+                <td><strong>Modula</strong></td>
+                <td>Diseñado para programas educativos y simples.</td>
+                <td>Poco soporte actual; compiladores y entornos limitados.</td>
+            </tr>
+            <tr>
+                <td><strong>Pascal</strong></td>
+                <td>Fácil de leer y usar, especialmente con herramientas como Free Pascal Compiler (FPC).</td>
+                <td>Menos flexible para integrar en proyectos modernos, no multiplataforma nativo.</td>
+            </tr>
         </tbody>
     </table>
-    <hr>
+    <p>Se eligió <strong>Java</strong> debido a su capacidad multiplataforma y facilidad para empaquetar como un único archivo ejecutable.</p>
+    <p><strong>Nota:</strong> Una solución en Python habría sido mucho más sencilla, ya que es más fácil de leer, escribir y ejecutar. Sin embargo, Python no está entre los lenguajes permitidos para esta tarea.</p>
 
     <h2>C. Solución</h2>
 
@@ -121,6 +164,7 @@ Carpeta Principal/
 
     <h3>C.2. Explicación de las Carpetas JRE</h3>
     <p>Las carpetas <code>jre-windows</code>, <code>jre-linux</code>, y <code>jre-macos</code> contienen un entorno de ejecución de Java (JRE) preconfigurado para cada sistema operativo. Esto asegura que los programas puedan ejecutarse incluso si el sistema del usuario no tiene Java instalado.</p>
+    <p>Los archivos del código fuente para el Java (JRE) se descargaron de <a href="https//:adoptium.net"> adoptium.net</a> </p>
     <hr>
 
     <footer>
